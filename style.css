@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamecanvas {
+  background-color: black;
+  padding: 2rem;
+  width: 70vw;
+  height: 70vh;
+  border: 0.3rem solid black;
+  position: relative;
+}
+
+.gamecanvas__gif {
+  position: absolute;
+  width: 106px;
+  height: 103px;
+}
